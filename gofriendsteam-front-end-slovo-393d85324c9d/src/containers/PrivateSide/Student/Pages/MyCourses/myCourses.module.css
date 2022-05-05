@@ -1,0 +1,206 @@
+.wrapper {
+    display: flex;
+    /* padding: 27px; */
+    flex-direction: column;
+    min-height: 270px;
+}
+.titleAll {
+    margin: 20px;
+}
+
+.titleAll h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #373737;
+    
+}
+
+.coursesWrapper {
+ display: flex;
+ justify-content: space-around;
+ align-items: flex-start;
+ flex-wrap: wrap;
+}
+
+.courseWrapper {
+    width: 329px;
+    height: 210px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    background: #fff;
+    border: none;
+    border-radius: 6%;
+    box-shadow: black;
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+.title p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+        font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+.button {
+    display: flex;
+flex-direction: row;
+padding: 11px 28px;
+
+width: 197px;
+height: 44px;
+
+
+background: #84E6CB;
+border-radius: 29px;
+}
+
+.button p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: center;
+margin: 10px 0px;
+}
+
+.coursesType {
+    display: flex;
+    justify-content: center;
+  }
+
+  .course {
+    width: 328px;
+      /* border: 1px solid #000000; */
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+     min-height: 270px;
+      cursor: pointer;
+      align-items: center;
+      margin: 20px;
+      background: #FFFFFF;
+      box-shadow: 1px 1px 7px #DCDCDC;
+      border-radius: 7px;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+  }
+
+
+
+
+  .coursesWrapper {
+  
+}
+
+.coursesAll {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px 10px;
+}
+
+.coursesType {
+  display: flex;
+  justify-content: center;
+}
+
+.course {
+  width: 328px;
+    /* border: 1px solid #000000; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    cursor: pointer;
+    align-items: center;
+    margin: 20px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 7px #DCDCDC;
+    border-radius: 7px;
+}
+
+.bottomText {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+.title p {
+  font-family: 'Helvetica Neue';
+  font-family: 'Proxima Nova';
+  font-family: 'Ubuntu';
+  font-family: 'Fira Sans';
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 0px;
+  color: #000000;
+  /* font-family: 'BlinkMacSystemFont';
+  font-family: 'Segoe UI';
+  font-family: 'Roboto';
+  font-family: 'Oxygen';
+  font-family: 'Helvetica Neue';
+  font-family: 'Montserrat'; */
+}
+
+.duration p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.from_min_price p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  margin: auto;
+}
+
+.wrapper {
+}
+
+.top {
+}

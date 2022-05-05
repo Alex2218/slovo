@@ -1,0 +1,17 @@
+.button {
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: rgb(38, 10, 104);
+    font-weight: 900;
+    outline: none;
+}
+

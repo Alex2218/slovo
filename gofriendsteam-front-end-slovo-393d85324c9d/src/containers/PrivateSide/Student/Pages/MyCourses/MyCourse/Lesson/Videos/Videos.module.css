@@ -1,0 +1,87 @@
+.description {
+  margin: 25px 10px 0px;
+}
+
+.description p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+  margin-bottom: 0.5em;
+}
+
+.videoWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleVideo {
+  margin: 15px 0px;
+}
+.titleVideo h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.videosWrapper {
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.wrapper {
+  width: 918px;
+  margin: auto;
+}
+
+.files {
+  background: #ffffff;
+  box-shadow: 3px 4px 4px rgba(78, 78, 78, 0.25);
+  border-radius: 7px;
+  width: 335px;
+  min-height: 50px;
+  margin: 30px 0px;
+  padding: 20px 20px;}
+
+.filesTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin-bottom: 0.5em;
+}
+
+.file {
+  display: flex;
+}
+
+.file a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #009ACB;
+}
+
+.FileImg {
+  width: 17px;
+  height: 17px;
+  margin-right: 7px;
+}
+
+

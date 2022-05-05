@@ -1,0 +1,208 @@
+.courseWrapper {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+.progressBarWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 10px 50px;
+}
+
+.progressBar {
+  width: 329px;
+  height: 80px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 7px;
+  display: flex;
+  position: relative;
+}
+
+.progressBarTitle {
+  position: absolute;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.progressBarTitle p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.title h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.status {
+    width: 20px;
+}
+.progressBarPercent {
+    top: 45%;
+    left: 75%;
+    display: flex;
+    position: absolute;
+}
+
+.progressBarPercentItemBig {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.progressBarPercentAny {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+  position: relative;
+  top: 45%;
+  left: 82%;
+} 
+
+.progressBarPercentItem {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-left: 8px;
+    margin-top: 18px;
+}
+
+/* bottom */
+
+.topText {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 20px;
+  border-bottom: 0.5px solid #545454;
+}
+
+.topTextItem {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lessonItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.lessonItem:hover {
+  border-bottom: 1px solid #3ea9be;
+  transition: width 100ms ease-in-out 0s;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.lessonTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+  margin: 6px 0px 6px 10px;
+}
+
+.lessonStatus {
+}
+
+.moduleTitleAndNumber {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 20px 0px 3px;
+}
+
+.bottomWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 43px;
+  width: 368px;
+  height: 49px;
+
+  background: #84E6CB;
+  border-radius: 42px;
+}
+
+.button p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 10px 0px;
+}
+
+.redStar {
+  margin-left: 15px;
+}
+
+.redStar p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  margin-bottom: 0em;
+  color: #e63700;
+}

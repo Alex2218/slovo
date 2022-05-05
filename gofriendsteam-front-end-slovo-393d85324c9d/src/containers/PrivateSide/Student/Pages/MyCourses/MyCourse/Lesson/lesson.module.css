@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 20px 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: auto;
+}
+
+.title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #000000;
+margin: 20px 
+}

@@ -1,0 +1,242 @@
+.courseWrapper {
+  /* background: #E5E5E5; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Top */
+
+.courseTop {
+  min-height: 463px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 25px 20px 15px;
+  width: 1154px;
+}
+
+.courseTopCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #c4c4c4; */
+  height: 463px;
+  padding: 30px;
+  min-height: 500px;
+}
+
+.courseTopCenter::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #cccccc;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.return {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.title h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.description p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.from p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.coursePackagesTitle {
+  margin: 20px 0px 40px;
+}
+
+.coursePackagesTitle h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.buyPack {
+
+  display: flex;
+  flex-direction: row;
+  padding: 7px 30px;
+  width: 228px;
+  height: 56px;
+  background: #84E6CB;
+  border-radius: 33px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.buyPackBlue {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 43px;
+  width: 160px;
+  height: 45px;
+  background: #84e6cb;
+  border-radius: 34px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 30px;
+}
+
+/* bottom */
+
+.coursePackages {
+  padding: 30px 40px;
+  /* background: #e5e5e5; */
+  min-height: 64vh;
+}
+
+.packagesWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.module {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.moduleLeft {
+  width: 210px;
+  min-height: 309px;
+  background: #84E6CB;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 7px #DCDCDC;
+  padding: 20px;
+}
+
+.moduleRight {
+  /* width: 917px;
+    height: 239px; */
+  background: #ffffff;
+  box-shadow: 1px 1px 7px #DCDCDC;
+}
+
+.moduleRightTop {
+  width: 917px;
+  height: 70px;
+  background: #84E6CB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moduleRightTop p {
+  margin-bottom: 0.5em;
+  /* color: #FFFFFF; */
+}
+.moduleRightBottom {
+  width: 917px;
+  min-height: 239px;
+  background: #ffffff;
+  padding: 25px 40px;
+  text-align: start;
+}
+
+.coursePackagesTitle h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.moduleLeft h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #fff;
+}
+
+.moduleRightTop p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #fff;
+}
+
+.moduleRightBottomOne p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.numModules {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}

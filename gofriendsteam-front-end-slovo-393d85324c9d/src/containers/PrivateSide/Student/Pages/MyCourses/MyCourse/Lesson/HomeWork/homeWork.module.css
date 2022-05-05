@@ -1,0 +1,179 @@
+.wrapper {
+  width: 918px;
+  margin: auto;
+}
+
+.hwInf {
+  display: flex;
+  flex-direction: column;
+}
+
+.hwTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin: 30px;
+}
+
+.description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+  margin: 0px 0px 10px;
+}
+
+.files {
+  width: 335px;
+  min-height: 50px;
+  background: #ffffff;
+  box-shadow: 3px 4px 4px rgba(78, 78, 78, 0.25);
+  border-radius: 7px;
+  margin: 30px 0px;
+  padding: 20px 20px;
+}
+
+.filesTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin-bottom: 0.5em;
+}
+
+.file {
+  display: flex;
+}
+
+.file a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #009ACB;
+}
+
+.FileImg {
+  width: 17px;
+  height: 17px;
+  margin-right: 7px;
+}
+
+/* textFiel */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.sendHW {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin: 5px;
+}
+
+.addForm {
+    width: 162px;
+    height: 34px;
+    background: #04bf3c;
+    border-radius: 9px;
+    margin: 20px 0px;
+    align-items: center;
+    cursor: pointer;
+    /* margin: 20px auto; */
+}
+
+.addForm p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 29px;
+
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: center;
+/* margin: 10px 0px; */
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.deleteButton {
+    width: 162px;
+    height: 34px;
+    background: #9e051c;
+    border-radius: 9px;
+    margin: 0px 0px 10px;
+    align-items: center;
+    /* margin: 10px auto; */
+    cursor: pointer;
+}
+
+
+.deleteButton p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+}
+
+
+
+.submitButton {
+    display: flex;
+padding: 11px 28px;
+
+width: 197px;
+height: 44px;
+
+
+background: #84E6CB;
+border-radius: 29px;
+justify-content: center;
+margin: auto;
+}
+
+.submitButton p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;    
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    /* margin: 10px 0px; */
+}
+
+.formWrapperText {
+    margin-bottom: 20px;
+
+}

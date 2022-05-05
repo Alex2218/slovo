@@ -1,0 +1,8 @@
+.wrapper {
+    display: flex;
+    height: 92vh;
+}
+
+.wrapperWithoutNav {
+    width: 100%;
+}

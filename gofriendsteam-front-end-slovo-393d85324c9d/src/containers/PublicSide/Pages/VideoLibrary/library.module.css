@@ -1,0 +1,323 @@
+/* .readMoreState {
+  display: none;
+}
+
+.readMoreTarget {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.25s ease;
+}
+
+.readMoreState:checked ~ .readMoreWrap .readMoreTarget {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.readMoreState ~ .readMoreTrigger:before {
+  content: "Подробнее";
+}
+
+.readMoreState:checked ~ .readMoreTrigger:before {
+  content: "Свернуть";
+  z-index: 100;
+}
+
+.readMoreTrigger {
+  cursor: pointer;
+  display: inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-decoration-line: underline;
+
+  color: #84E6CB;
+} */
+
+/* p {
+  padding: 2%;
+  background: #fff;
+  color: #c7b27e;
+  border: 1px solid #fce29f;
+  border-radius: 0.25em;
+} */
+
+/* all */
+
+
+.moreWrapSpeaker {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.moreWrapSpeaker img {
+    width: 45px;
+    height: 45px;
+  z-index: 0;
+  border-radius: 100%;
+}
+
+.name {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+
+.moreWrapDescription {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #2B2B2B;
+margin: 10px 0px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+  /* background: #e5e5e5; */
+  min-height: 92vh;
+}
+
+.titleWrapper {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #373737;
+}
+
+.libraryWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  align-items: flex-start;
+}
+
+.oneLibraryWrapper {
+  background: #ffffff;
+  border-radius: 7px;
+  width: 329px;
+  min-height: 352px;
+  box-shadow: 1px 1px 7px #dcdcdc;
+    border-radius: 7px;
+}
+
+.oneLibraryWrapperSale {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  width: 68px;
+  height: 30px;
+  background: #ff1414;
+  border-radius: 20px;
+
+  position: static;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  justify-content: center;
+  position: relative;
+  left: 90%;
+  top: 10%;
+  flex: none;
+  order: 0;
+  align-self: center;
+}
+
+.topTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.priceFull {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #0e0e0e;
+}
+
+.priceWithSaleOne {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-decoration-line: line-through;
+
+  color: #939393;
+}
+
+.priceWithSaleTwo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #f14141;
+  margin-top: 5px;
+}
+
+.buy {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #84E6CB;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 20px;
+}
+
+.priceAndBuy {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px 0px;
+  align-items: center;
+}
+
+.priceWithSale {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESET-BASIC STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* CHECKBOX CONTAINER STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+  .container { 
+    position: relative; 
+    /* height: auto; */
+    border-top: 0;
+  }
+  
+  .container [type="checkbox"] {
+    position: absolute;
+    left:  -9999px;	
+  }
+  
+  .label {
+    display: block;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .label:before,
+  .label:after {
+      position: absolute;
+  }
+  
+  .label:before {
+    content: 'More';
+    left: 10px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #84E6CB;
+  }
+  
+  
+  @keyframes sudo { 
+      from { 
+      -webkit-transform: translateY(-2px); 
+              transform: translateY(-2px); 
+    }
+      to { 
+      -webkit-transform: translateY(2px); 
+              transform: translateY(2px); 
+    }
+  }
+  
+  input[type="checkbox"] ~ .readMoreWrap {
+    width: 100%;
+      display: none;
+  }
+  
+  .input:checked ~ .readMoreWrap {
+    display: block;
+  } 
+  
+  /* .input:checked ~ .label {
+    position: absolute; 
+    top: 100%;
+  } */
+  
+  .input:checked ~ .label:before {
+    content: 'Less';
+  }

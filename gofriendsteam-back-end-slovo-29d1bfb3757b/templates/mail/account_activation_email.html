@@ -1,0 +1,6 @@
+{% autoescape off %}
+Добрый день,
+Для подтверждения регистрации перейдите по ссылке:
+
+https://{{ request }}{% url 'users:activate' version='v1' uidb64=uid token=token %}
+{% endautoescape %}

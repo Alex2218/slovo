@@ -1,0 +1,54 @@
+
+html {
+  min-height: 100%;
+}
+
+/* @font-face {
+  font-family: 'Proxima Nova';
+  src: url('../src/fonts/ProximaNova/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+  src: url('../src/fonts/ProximaNova/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../src/fonts/ProximaNova/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
+       url('../src/fonts/ProximaNova/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+       url('../src/fonts/ProximaNova/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
+       url('../src/fonts/ProximaNova/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+} */
+/* @font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts//ProximaNova/fonts/Mark\ Simonson\ -\ Proxima\ Nova\ Alt\ Black-webfont.ttf');
+  src: url('../fonts/ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNovaRegular.woff') format('woff'),
+       url('../fonts/ProximaNovaRegular.ttf') format('truetype'),
+       url('../fonts/ProximaNovaRegular.svg#webfont') format('svg');
+} */
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Proxima Nova', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+ /* background-color: rgb(75, 14, 14); */
+ /* background: url(./img/fone.png); */
+ /* background-size: cover; */
+ /* background-color: rgb(75, 14, 14); */
+ background: #F8F8F8 !important;
+}
+
+body {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+/* font-family: Proxima Nova */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  background:  url(./img/fone.png);
+  background-size: cover;
+  min-height: 100%;
+}
